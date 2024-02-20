@@ -12,7 +12,6 @@ def get_people_who_know_secret(n, intervals, first_person):
     result = [i for i in range(n) if knows_secret[i]]
     return result
 
-
 def main():
     n = 5
     intervals = [[0, 2], [1, 3], [2, 4]]

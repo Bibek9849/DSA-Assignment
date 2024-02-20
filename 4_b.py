@@ -28,11 +28,12 @@ def closest_values(root, k, x):
 
 
 # Example usage:
-root = TreeNode(5)
-root.left = TreeNode(4)
-root.right = TreeNode(9)
-root.left.left = TreeNode(3)
-root.left.right = TreeNode(6)
+root = TreeNode(4)
+root.left = TreeNode(2)
+root.right = TreeNode(5)
+root.left.left = TreeNode(1)
+root.left.right = TreeNode(3)
+
 
 k = 3.8
 x = 2

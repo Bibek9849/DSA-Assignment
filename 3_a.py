@@ -29,3 +29,4 @@ score_tracker.add_score(88.7)
 print(score_tracker.scores)
 median2 = score_tracker.get_middle_value()
 print(sum(median2)/2)
+
